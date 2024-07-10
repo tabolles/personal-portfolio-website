@@ -1,0 +1,48 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#logo-link{
+    padding-top: .5em;
+    justify-self: center;
+    align-self: center;
+}
+#logo-img{
+    margin: 0 auto;
+    width: 50%;
+}
+    
+header{
+    color: white;
+    background-color: #0E402D;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 100px;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-self: center;
+    padding-right: 50%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 9%;
+}
+.nav-bar a:hover{
+    background-color:#295135;
+}
+
+#hero-title{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+#hero-img{
+    width: 100%;
+}
+
