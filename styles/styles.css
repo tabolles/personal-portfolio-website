@@ -23,7 +23,7 @@ header{
 nav{
     display:flex;
     justify-content: space-around;
-    align-self: center;
+    align-items: center;
     padding-right: 50%;
 }
 nav a{
@@ -38,11 +38,40 @@ nav a{
 
 #hero-title{
     position: absolute;
-    top: 45%;
-    left: 45%;
+    text-align: center;
+    top: 20%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #hero-img{
     width: 100%;
 }
 
+footer{
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
+    height: 100px;
+}
+
+footer p{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 150px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding-right: 50%;
+}
+
+
+#linkedin-img{
+    margin: 0 auto;
+    width: 50px;
+}
