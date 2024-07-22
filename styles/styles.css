@@ -50,6 +50,15 @@ a{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#projects-hero-title{
+    color: white;
+    font-family: "Teko", Helvetica, sans-serif;
+    position: absolute;
+    text-align: center;
+    top: 25%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 #hero-img{
     width: 100%;
